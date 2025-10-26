@@ -4,7 +4,7 @@ import streamlit as st
 
 # Add the project root to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-from frontend.main import level
+from frontend.StudyBuddy import level
 from frontend.utils.api_client import generate_questions
 
 st.title("🧠 Generate Custom Revision Questions")

@@ -6,7 +6,7 @@ import streamlit as st
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from frontend.utils.api_client import upload_and_extract
-from frontend.main import level
+from frontend.StudyBuddy import level
 st.title("🎯 Extract Key Study Topics")
 st.write(
     "Upload your lecture notes and a past paper, and I'll identify the most "

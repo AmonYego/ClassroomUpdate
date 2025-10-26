@@ -6,7 +6,7 @@ import streamlit as st
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from frontend.utils.api_client import mark_answer
-from frontend.main import level
+from frontend.StudyBuddy import level
 st.title("📝 Get Your Work Marked")
 st.write(
     "Upload your completed answers, and I'll provide a detailed evaluation and score."

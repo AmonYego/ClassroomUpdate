@@ -24,20 +24,20 @@ if level != "-- Select Level --":
     st.session_state["level"] = level
     st.success(f"Great! You've selected {level}. Here are the tools available for you:")
 
-    st.page_link("pages/extract_page.py", label="🎯 Extract Key Study Topics", icon="🎯")
+    st.page_link("pages/AI_Powered_Analysis.py", label="🎯 Extract Key Study Topics", icon="🎯")
     st.page_link(
-        "pages/questions_page.py",
+        "pages/Generate_Revision_questions.py",
         label="🧠 Generate Custom Revision Questions",
         icon="🧠",
     )
     st.page_link(
-        "pages/simplify_page.py",
+        "pages/Simplify_Explanation.py",
         label="💡 Simplify Complex Explanations",
         icon="💡",
     )
-    st.page_link("pages/marking_page.py", label="📝 Get Your Work Marked", icon="📝")
+    st.page_link("pages/AI_Marking.py", label="📝 Get Your Work Marked", icon="📝")
     st.page_link(
-        "pages/similar_page.py",
+        "pages/Generate_Similar_Questions.py",
         label="🔀 Generate Similar Questions",
         icon="🔀",
     )

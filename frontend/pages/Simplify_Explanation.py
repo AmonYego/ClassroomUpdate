@@ -6,7 +6,7 @@ import streamlit as st
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
 
 from frontend.utils.api_client import simplify
-from frontend.main import level
+from frontend.StudyBuddy import level
 st.title("💡 Simplify Complex Explanations")
 st.write(
     "Struggling with a tough concept? Upload your lecture notes, and I'll break "

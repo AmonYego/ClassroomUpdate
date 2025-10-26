@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
-from backend.api.extract import router as extract_router
+from backend.api.Analysis import router as extract_router
 from backend.api.questions import router as questions_router
-from backend.api.marking import router as marking_router
+from backend.api.Marking import router as marking_router
 from backend.api.similar import router as similar_router
 from backend.api.simplify import router as simplify_router
 
